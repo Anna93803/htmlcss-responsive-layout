@@ -171,7 +171,6 @@ nav {
 .box img {
     width: 100%;
     margin-bottom: 5rem;
-    /* padding: 5rem 1.875rem; */
 }
 
 .box h3 {
@@ -225,4 +224,67 @@ nav {
 .col-d-flex {
     display: flex;
     justify-content: center;
+}
+
+/* Section Testimonials */
+.testimonial {
+    text-align: center;
+}
+
+.testimonial h6 {
+    font-weight: 200;
+}
+
+.testimonial h2 {
+    padding: 1.5625rem 0;
+    font-size: 1.75rem;
+    color: var(--color-primary);
+}
+
+.testimonial > p {
+    font-size: .8125rem;
+    word-break: break-word;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+}
+
+.img-testimonial {
+    max-width: 180px;
+}
+
+.img-testimonial img {
+    width: 100%;
+    clip-path: circle();
+}
+
+.box-l {
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    padding: 1.5625rem;
+    margin-bottom: 1.25rem;
+    border-radius: 1.5625rem;
+}
+
+.profile {
+    color: var(--color-white);
+    text-align: left;
+    width: 75%;
+}
+
+.fa-quote-left {
+    position: relative;
+    bottom: .1875rem;
+}
+
+.profile p {
+    line-height: 1.6;
+    font-size: .75rem;
+    letter-spacing: .0625rem;
+}
+
+.name-testimonial h5 {
+    letter-spacing: .0625rem;
+    padding-top: .9375rem;
 }
