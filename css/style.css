@@ -26,8 +26,13 @@ body {
     padding-right: 1rem;
 }
 
+.container-large {
+    padding-left: 4rem;
+    padding-right: 64px;
+}
+
 .section {
-    padding: .625rem;
+    padding: 5rem;
 }
 
 .row {
@@ -152,4 +157,72 @@ nav {
 
 .border-r {
     border-radius: .9375rem;
+}
+
+/* Section strategic */
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.box {
+    width: 300px;
+}
+
+.box img {
+    width: 100%;
+    margin-bottom: 5rem;
+    /* padding: 5rem 1.875rem; */
+}
+
+.box h3 {
+    color: var(--color-white);
+    font-size: 1.25rem;
+}
+
+.paragraph p {
+    font-size: .75rem;
+    line-height: 1.7;
+    color: var(--color-white);
+    padding: 1.875rem 0;
+}
+
+.box.form img {
+    padding: .5rem 1.5625rem;
+}
+
+.form img {
+    width: 100%;
+}
+
+.form {
+    width: 250px;
+    background-color: var(--color-white);
+    border-radius: .75rem;
+    padding: .75rem .9375rem;
+    text-align: center;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.form p {
+    font-size: .75rem;
+    line-height: 1.5;
+    font-style: italic;
+    padding-bottom: 1.25rem;
+}
+
+.form h4 {
+    padding: .5rem 0;
+}
+
+.btn.btn-primary {
+    background-color: var(--color-primary);
+    padding: .5rem .6875rem;
+}
+
+.col-d-flex {
+    display: flex;
+    justify-content: center;
 }
