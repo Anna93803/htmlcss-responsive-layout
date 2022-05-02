@@ -288,3 +288,47 @@ nav {
     letter-spacing: .0625rem;
     padding-top: .9375rem;
 }
+
+/* Section Benefits */
+.title-benefit {
+    text-align: center;
+    font-size: 1.875rem;
+    color: var(--color-white);
+}
+
+.card-benefit {
+    background-color: var(--color-white);
+    border-radius: .9375rem;
+    padding: 1.25rem;
+}
+
+.card-benefit h3 {
+    font-size: 3.125rem;
+    padding-bottom: .9375rem;
+    color: var(--color-primary);
+}
+
+.card-benefit p:nth-child(2) {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.card-benefit p:nth-child(3) {
+    color: #445462;
+    font-size: .875rem;
+    padding: 1.25rem 0;
+    line-height: 1.5;
+}
+
+.card-benefit .btn.btn-primary {
+    padding: .375rem 1.875rem;
+    color: var(--color-white);
+}
+
+.pt-50 {
+    padding-top: 3.125rem;
+}
+
+.gap-20 {
+    gap: 1.25rem;
+}
