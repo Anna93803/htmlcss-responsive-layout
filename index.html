@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- /fontawesome -->
         <link rel="stylesheet" href="./css/style.css">
         <title>Responsive layout</title>
     </head>
@@ -43,14 +46,59 @@
         </header>
         <main>
             <!-- Section Card -->
-            <div class="section">
+            <div class="section padding-t">
                 <div class="container">
-                    <div class="row">
-                        <div class="col"></div>
-                        <div class="col"></div>
-                        <div class="col"></div>
-                        <div class="col"></div>
-                        <div class="col"></div>
+                    <div class="row d-around">
+                        <div class="col-2 bg-secondary-light border-r">
+                            <div class="card">
+                                <div class="row d-center d-around">
+                                    <div class="col-1">
+                                        <h4>Get a demo application</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit tempore enim similique tempore enim blanditiis!</p>
+                                        <button class="btn btn-secondary">
+                                            <i class="fa-brands fa-apple"></i>
+                                            App Store
+                                        </button>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="img-phone">
+                                            <img src="./img/phone.png" alt="phone">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1 bg-secondary-light border-r">
+                            <div class="card text-center">
+                                <div>
+                                    <i class="fa-solid fa-file-code icons"></i>
+                                    <h4>Clean Code</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit tempore enim similique tempore enim blanditiis!</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1 bg-secondary-light border-r">
+                            <div class="card text-center">
+                                <i class="fa-solid fa-compass-drafting icons"></i>
+                                <h4>Web Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit tempore enim similique tempore enim blanditiis!</p>
+                            </div>
+                        </div>
+                        <div class="col-1 bg-secondary-light border-r">
+                            <div class="card text-center">
+                                <i class="fa-solid fa-laptop-code icons"></i>
+                                <h4>Developement</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit tempore enim similique tempore enim blanditiis!</p>
+                            </div>
+                        </div>
+                        <div class="col-1 bg-secondary-light border-r">
+                            <div class="card text-center">
+                                <i class="fa-solid fa-bullhorn icons"></i>
+                                <h4>Branding</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit tempore enim similique tempore enim blanditiis!</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
