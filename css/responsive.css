@@ -1,0 +1,110 @@
+/* Desktop first */
+@media screen and (max-width: 900px) {
+    header .display-none {
+        display: block;
+    }
+    
+    header .list {
+        display: none;
+    }
+}    
+
+
+@media screen and (max-width: 727px) {
+    .btn.btn-secondary {
+        padding: .625rem;
+    }
+
+    .row.d-around h4 {
+        font-size: 1rem;
+    }
+
+    .img-phone {
+        width: 183px;
+    }
+
+    .col-2 {
+        flex-grow: 1;
+        padding: 0 .625rem;
+    }
+
+    .row.g-45 .col-2 {
+        flex-basis: 50%;
+    }
+
+    .col-1 {
+        flex-basis: calc(100% / 2 - 1.25rem);
+    }
+
+    .row.baseline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row.baseline .box {
+        max-width: 500px;
+    }
+    
+    .paragraph h3 {
+        font-size: 2.5rem;
+    }
+
+    .paragraph p {
+        font-size: .9375rem;
+    }
+
+    .form {
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .row.around,
+    .row.baseline,
+    .row.pt-50.gap-20,
+    .row.g-45 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row.g-45 .col {
+        padding-left: 7.5rem;
+    }
+
+    .img-user.w-150 {
+        max-width: 200px;
+    }
+
+    .img-user p {
+        font-size: 1.5rem;
+    }
+}    
+
+@media screen and (max-width: 429px) {
+    .box-l.img-user {
+        max-width: 150px;
+    }
+
+    .row.g-45 .col {
+        padding-left: 2.1875rem;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .col-1 {
+        flex-basis: 100%;
+    }
+
+    .p-about {
+        font-size: .75rem;
+    }
+
+    .paragraph h3 {
+        font-size: 1.875rem;
+    }
+
+    .paragraph p {
+        font-size: .75rem;
+    }
+}
